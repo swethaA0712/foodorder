@@ -1,0 +1,324 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+   
+}
+h1{
+    background-image:url(flower.jpg) ;
+    background: size 10px;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+nav{
+    background-color: rgb(188, 61, 15);
+    padding: 10px;
+}
+li,ul{
+    display: inline;
+    color:white;
+    font-size: 8px;
+}
+ul{
+    margin-left: 1100px;
+}
+.header button{
+    background-color: rgb(2, 64, 29);
+    width: 70px;
+    height: 50px;
+    font-family: cursive;
+    border: 3px solid white;
+    margin: 5px;
+}
+.header h1{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(2, 64, 29);
+}
+.header button:hover{
+    cursor: pointer;
+
+}
+.imp img{
+    width: 1420px;
+    height: 800px;
+    margin: 30px ;
+}
+.imp h1{
+    color: wheat;
+font-size: 80px;
+    position: absolute;
+    bottom:160px;
+    left: 55px;
+    
+}
+.imp h1:hover{
+    cursor: pointer;
+    color:rgb(78, 12, 12);
+}
+.imp button{
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+    width: 200px;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: cursive;
+    background-color: orange;
+}
+.about h1{
+    cursor: pointer;
+    color: brown; 
+    font-family: cursive;
+    margin: 40px;
+    padding: 30px;
+    text-align: center;
+}
+.para{
+    display: flex;
+    padding: 20px;
+
+}
+
+.para p{
+    
+text-align: justify;
+margin-left: 20px;
+color: rgb(9, 9, 9);
+font-family:cursive;
+}
+.para img{
+    max-width: 400px; /* Adjust max-width as needed */
+    margin-left: 100px;
+}
+.para:hover{
+    
+}
+.box{
+    margin-left: 90px;
+    
+}
+.content1{
+    width: 20%;
+    height:500px;
+    background-color: rgb(195, 214, 19);
+    float:left;
+    margin-right:2px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.25);
+    font-size: 30px;
+    
+    
+}
+.content1 img{
+    border-radius: 50%;
+    padding: 10px;
+    margin: 30px;
+    height: 100px;
+}
+.content1 h1{
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+
+}
+.content1 p{
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(195, 214, 19);
+    text-align: justify;
+    margin: 20px;
+
+}
+.content2{
+    width: 20%;
+    height:500px;
+    background-color:rgb(18,134,233);
+    float:left;
+    margin-left:50px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+.content2 img{
+    border-radius: 50%;
+    padding: 10px;
+    margin: 30px;
+    height: 100px;
+}
+.content2 h1{
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+
+}
+.content2 p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    
+}
+.content3{
+    width: 20%;
+    height:500px;
+    background-color: rgb(254, 21, 4);
+    float:left;
+    margin-left:50px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    
+}
+.content3 img{
+    border-radius: 60%;
+    padding: 10px;
+    margin: 30px;
+    height: 100px;
+}
+
+.content3 h1{
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+}
+.content3 p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    
+}
+.content4{
+    width: 20%;
+    height:500px;
+    background-color:rgb(205, 87, 24);
+    border-radius: 20px;
+    float:right;
+    margin-right:120px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.25);
+    
+}
+.content4 img{
+    border-radius: 60%;
+    padding: 10px;
+    margin: 30px;
+    height: 100px;
+}
+.content4 h1{
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+}
+.content4 p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    
+}
+.lap h1{
+color: black;
+margin-top: 30px;
+}
+
+
+
+
+.new h1{
+    color:green;
+    text-align:center;
+}
+
+.new nav{
+    background-color: rgb(188, 61, 15);
+    padding: 10px;
+}
+.new li,ul{
+    display: inline;
+    color:white;
+    font-size: 20px;
+}
+.new ul{
+    margin-left: 1100px;
+}
+.special1 h1{
+    margin-left: 20px;
+    padding: 20px;
+    color: black;
+    
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition:0.2s ease;
+}
+.item img:hover{
+    transform:scale(1.04);
+}
+.item h4{
+    padding :5px;
+    text-align:center;
+
+}
+.item button{
+    background-color: yellow;
+    color:black;
+    font-family:sans-serif;
+    cursor: pointer;
+padding: 5px 30px;
+display: block;
+margin:  0 auto;
+transition: 0.2s all;
+}
+.item button:hover{
+    transform: scale(1.04);
+    background-color: red;
+}
+.one h1{
+    text-align: center;
+    background-image:url(flower.jpg) ;
+    background: size 10px;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.two h1{
+    text-align: center;
+    background-image:url(flower.jpg) ;
+    background: size 10px;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: brown;
+}
+
+.thank h1{
+    margin-left:400px;
+    font-size: 100px;
+}
+.photo img{
+    width: 500px;
+    margin-left:400px;
+    padding: 100px;
+}
+#footer{
+    background-color:skyblue;
+    color:black
+
+    
+}
